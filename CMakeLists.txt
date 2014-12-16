@@ -2,7 +2,7 @@
 cmake_minimum_required(VERSION 2.8)
 
 # 設定專案名稱
-project("NTOUCS_Java_Programming_Homework")
+project("NTOUCS Java Programming Homework Opensource Project")
 
 # 設定建構類型
 ## Specifies the build type on single-configuration generators

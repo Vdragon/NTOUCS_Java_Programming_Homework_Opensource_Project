@@ -6,8 +6,8 @@
 本說明文件
 ### [.gitignore](.gitignore)
 Git 版本控制系統版本追蹤忽略規則
-### [NTOUCS_Java_Programming_Homework.cbp](NTOUCS_Java_Programming_Homework.cbp)
+### [NTOUCS Java Programming Homework Opensource Project.cbp](NTOUCS Java Programming Homework Opensource Project.cbp)
 Code::Blocks 專案檔案
 
 ## 如何用此軟體建構解決方案建構軟體？
-開啟 Code::Blocks 整合式開發環境的專案檔案([NTOUCS_Java_Programming_Homework.cbp](NTOUCS_Java_Programming_Homework.cbp))，然後點擊選單中的「建構(<span style="text-decoration: underline">B</span>) > 建構(<span style="text-decoration: underline">B</span>)」
+開啟 Code::Blocks 整合式開發環境的專案檔案([NTOUCS Java Programming Homework Opensource Project.cbp](NTOUCS Java Programming Homework Opensource Project.cbp))，然後點擊選單中的「建構(<span style="text-decoration: underline">B</span>) > 建構(<span style="text-decoration: underline">B</span>)」

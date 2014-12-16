@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>NTOUCS_Java_Programming_Homework</name>
+	<name>NTOUCS Java Programming Homework Opensource Project</name>
 	<comment></comment>
 	<projects>
 	</projects>
@@ -35,7 +35,7 @@
 				</dictionary>
 				<dictionary>
 					<key>org.eclipse.cdt.make.core.buildLocation</key>
-					<value>${workspace_loc:/NTOUCS_Java_Programming_Homework/Debug}</value>
+					<value>${workspace_loc:/NTOUCS Java Programming Homework Opensource Project/Debug}</value>
 				</dictionary>
 				<dictionary>
 					<key>org.eclipse.cdt.make.core.cleanBuildTarget</key>

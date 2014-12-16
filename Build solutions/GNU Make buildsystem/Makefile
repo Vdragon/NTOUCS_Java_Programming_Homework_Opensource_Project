@@ -2,7 +2,7 @@
 # https://github.com/Vdragon/GNU_Make_Makefile_templates
 # 變數
 # Variables
-NAME_PROJECT = "NTOUCS_Java_Programming_Homework"
+NAME_PROJECT = "NTOUCS Java Programming Homework Opensource Project"
 NAME_TARGET = Unix_x86_32bit_debug
 POSTFIX_TYPE_SOURCE_CODE_C = c
 POSTFIX_TYPE_SOURCE_CODE_CPP = cpp

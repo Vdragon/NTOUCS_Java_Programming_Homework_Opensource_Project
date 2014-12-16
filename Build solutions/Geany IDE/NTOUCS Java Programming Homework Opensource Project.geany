@@ -13,7 +13,7 @@ detect_indent_width=true
 indent_mode=2
 
 [project]
-name=NTOUCS_Java_Programming_Homework
+name=NTOUCS Java Programming Homework Opensource Project
 base_path=./../..
 description=
 file_patterns=*.c;*.h;*.cpp;
