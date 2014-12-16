@@ -4,7 +4,7 @@
 ### [說明文件.md<br />README.md](README.md)
 本說明文件
 
-### [ntou/cs/java2014/_09957010/](ntou/cs/java2014/_09957010/)
+### [ntou/cs/java2014/HenryLin/](ntou/cs/java2014/HenryLin/)
 
 ### [.gitignore](.gitignore)
 Git 版本控制系統版本追蹤忽略規則
