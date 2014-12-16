@@ -1,31 +1,8 @@
-## 「[通用軟體專案範本](https://github.com/Vdragon/Generic_Software_Project_Template)」內容未初始化說明<br />"[Generic Software Project Template](https://github.com/Vdragon/Generic_Software_Project_Template)" content not-initialized note
-如果您看到此段文字代表本檔案尚未被專案開發者自訂為他自己的版本，內容僅供參考。如果您是此專案的開發者請修改成自己需要的內容並移除下方水平線之上的所有內容。  
-If you see this paragraph means that this file is NOT customized to the project devloper's version and the content is for reference only.  If you're this project's developer please customize this file's content then remove all of the contents up from the horizontal line.
-
-### 如何使用？<br />How to use it?
-1. 將程式碼封存檔下載下來並解封裝
-2. 將 Generic_Software_Project_Template 目錄改名為您的專案名稱
-3. 以專案根目錄作為當前工作目錄(current working directory)在終端機中執行 bash Tools/initializeProject.bash.sh 初始化專案
-4. 依照您要開發的軟體類型將需要的檔案放到他們該在的目錄中
-	* 比方說，將本軟體所需要的函式庫與函式庫標頭檔放到 Libraries/ 與 Library headers/ 目錄中
-	* 您可以移除您不會用到的目錄
-5. 開始設計軟體 :)
-
-### 授權條款<br />License
-This project template is licensed as CC0.
-To the extent possible under law, Vdragon(Vdragon.Taiwan@gmail.com) has waived all copyright and related or neighboring rights to 通用軟體專案範本(Generic Software Project Template). This work is published from: 台灣(Taiwan). 
-
-### 已知問題<br />Known issues
-請瀏覽本專案的問題追蹤系統。  
-Please browse our project's issue tracker.  
-[https://github.com/Vdragon/Generic_Software_Project_Template/issues](https://github.com/Vdragon/Generic_Software_Project_Template/issues)
-
--------------------------------------
-# 〈專案名稱〉<br />&lt;Project_name&gt;
-
-## 這是什麼？<br />What is this?
+# 海洋大學資訊工程學系《Java 程式設計》課程作業開放來源程式碼專案<br />NTOUCS Java Programming Homework Opensource Project
+<https://github.com/Vdragon/NTOUCS_Java_Programming_Homework_Opensource_Project>
 
 ## 本專案的智慧財產授權條款<br />Intellectual property license of this project
+[Mozilla Public License](https://www.mozilla.org/MPL) [2.0](https://www.mozilla.org/MPL/2.0) 或其任意之近期版本
 
 ## 如何建構專案？<br />How to build the project?
 本專案支援多種軟體建構方式，請參考[軟體建構解決方案/](Build solutions/)目錄的說明文件。
