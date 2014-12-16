@@ -2,7 +2,8 @@
 <https://github.com/Vdragon/NTOUCS_Java_Programming_Homework_Opensource_Project>
 
 ## 本專案的智慧財產授權條款<br />Intellectual property license of this project
-[Mozilla Public License](https://www.mozilla.org/MPL) [2.0](https://www.mozilla.org/MPL/2.0) 或其任意之近期版本
+除了特別聲明之內容外，本專案之內容以 [GNU 通用公共授權條款](https://www.gnu.org/licenses/gpl.html)第 3 版或其任意之更近期版本授權所有人使用  
+Except content otherwise noted, content of this project are licenced with [GNU General Public License](https://www.gnu.org/licenses/gpl.html) version 3 or any of it's later versions.
 
 ## 如何建構專案？<br />How to build the project?
 本專案支援多種軟體建構方式，請參考[軟體建構解決方案/](Build solutions/)目錄的說明文件。
