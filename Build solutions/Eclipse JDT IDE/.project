@@ -18,12 +18,12 @@
 		<link>
 			<name>Source code</name>
 			<type>2</type>
-			<locationURI>global_project_location/Source%20code</locationURI>
+			<locationURI>$%7Bglobal_project_location%7D/Source%20code</locationURI>
 		</link>
 	</linkedResources>
 	<filteredResources>
 		<filter>
-			<id>1418540393970</id>
+			<id>0</id>
 			<name>Source code</name>
 			<type>21</type>
 			<matcher>
