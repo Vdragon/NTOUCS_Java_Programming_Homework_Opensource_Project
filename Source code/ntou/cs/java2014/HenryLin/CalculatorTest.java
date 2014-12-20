@@ -1,6 +1,6 @@
 package ntou.cs.java2014.HenryLin;
 /* CalculatorTest.java
-   1-1 作業測試用程式類別 */
+   1-1 作業測試用程式 */
 
 public class CalculatorTest{
 	public static void main(String[] args){
