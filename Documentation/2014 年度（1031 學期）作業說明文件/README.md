@@ -9,4 +9,4 @@
 本說明文件
 
 ## 智慧財產授權條款<br>Intellectual property license
-除本文件外其他檔案為[馬尚彬老師](albert@ntou.edu.tw)所有。
+除本文件外其他檔案為[馬尚彬老師](albert@ntou.edu.tw)所有，於作者無設定授權條款的情況下應視這些作品為「保留所有作者權益(all rights reserved)」。
