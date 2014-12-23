@@ -10,7 +10,10 @@ public class CalculatorTest{
 	 *  
 	 *  @param args 從命令列傳進來的命令參數 */
 	public static void main(String[] args){
-			System.out.println("1-1 作業 Calculator 類別測試程式");
-		
+		System.out.println("1-1 作業 Calculator 類別測試程式");
+		System.out.println("林博仁(09957010) <Henry.Lin.Taiwan@gmail.com> © 2014");
+		System.out.println("---------------------------------------------------------");
+		Calculator.compareThreeNumbers();
+		return;
 	}
 }
