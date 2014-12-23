@@ -21,23 +21,23 @@ public class Calculator{
 		third_number = standard_input_scanner.nextInt();
 		standard_input_scanner.close();
 		
-		/** 計算並輸出結果 */{
-			/** 和 */
+		/* 計算並輸出結果 */{
+			/* 和 */
 			int sum = -12345;
 			
-			/** 乘積 */
+			/* 乘積 */
 			int product = -12345;
 			
-			/** 平均數 */
+			/* 平均數 */
 			int average = -12345;
 			
-			/** 目前為止的最小數 */
+			/* 目前為止的最小數 */
 			int current_minimum = -12345;
 			
-			/** 目前為止的最大數 */
+			/* 目前為止的最大數 */
 			int current_maximum = -12345;
 			
-			/** 判斷最大數與最小數 */{
+			/* 判斷最大數與最小數 */{
 				if(first_number >= second_number){
 					current_maximum = first_number;
 					current_minimum = second_number;
@@ -54,13 +54,13 @@ public class Calculator{
 				}
 			}
 			
-			/** 求出和、乘積和平均數 */{
+			/* 求出和、乘積和平均數 */{
 				sum = first_number + second_number + third_number;
 				product = first_number * second_number * third_number;
 				average = sum / 3;
 			}
 			
-			/** 輸出結果 */
+			/* 輸出結果 */
 			System.out.format("於 %d、%d 和 %d 中\n", first_number, second_number, third_number);
 			System.out.format("最大值為 %d\n", current_maximum);
 			System.out.format("最小值為 %d\n", current_minimum);
