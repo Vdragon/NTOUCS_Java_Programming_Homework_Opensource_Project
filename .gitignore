@@ -69,3 +69,6 @@ temp/
 !*.gitignore
 # 排除 Git submodule 設定檔
 !*.gitmodules
+# 排除 Travis CI 設定檔
+!.travis.yml
+

@@ -40,6 +40,9 @@ This directory stores 3rd party software used by this project
 本說明文件  
 This documentation
 
+### [.travis.yml](.travis.yml)
+Travis CI 設定檔
+
 ## 常見問題與解答<br />Frequently Asked Questions and answers
 
 ## 如何對本專案做出貢獻<br />How to contribute to this project
