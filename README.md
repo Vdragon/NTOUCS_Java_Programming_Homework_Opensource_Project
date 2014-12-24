@@ -43,6 +43,9 @@ This documentation
 ### [.travis.yml](.travis.yml)
 Travis CI 設定檔
 
+### [.gitignore](.gitignore)
+Git 版本控制系統版本追蹤忽略規則
+
 ## 常見問題與解答<br />Frequently Asked Questions and answers
 
 ## 如何對本專案做出貢獻<br />How to contribute to this project
