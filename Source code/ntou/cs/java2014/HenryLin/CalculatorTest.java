@@ -1,8 +1,8 @@
-package ntou.cs.java2014.HenryLin;
 /** @file CalculatorTest.java
     @brief 1-1 作業 Calculator 物件類別測試程式
     @author 林博仁(09957010) <Henry.Lin.Taiwan@gmail.com>
     @copyright 本來源程式碼以 General Public Licence 授權條款第 3 版或其任一更近期版本釋出 */
+package ntou.cs.java2014.HenryLin;
 
 /** @brief CalculatorTest 物件類別 */
 public class CalculatorTest{
