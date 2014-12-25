@@ -9,7 +9,7 @@
 本說明檔案
 
 ### [initializeProject.bash.sh](initializeProject.bash.sh)
-初始化專案用的 GNU Bash shell script 程式，此程式會刪除先前的 C_CPP_project_template Git 程式碼倉庫
+初始化專案用的 GNU Bash shell script 程式，此程式會刪除先前的 Git 版本倉庫
 
 ### [renameProject.bash.sh](renameProject.bash.sh)
 重新命名專案名稱
