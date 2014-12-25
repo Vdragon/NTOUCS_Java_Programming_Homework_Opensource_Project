@@ -5,4 +5,4 @@
 ### [2014 年度（1031 學期）/](2014 年度（1031 學期）/)
 ### [應用程式介面(API)說明文件/<br>Application Programming Interface(API) documentation/](Application Programming Interface(API) documentation/)
 ### [README.md](README.md)
-    * 本說明文件
+本說明文件
