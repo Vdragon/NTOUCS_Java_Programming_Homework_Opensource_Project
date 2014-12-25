@@ -22,3 +22,13 @@
 
 ### [switchCodingStyle.bash.sh](switchCodingStyle.bash.sh)
 轉換程式碼風格的程式
+
+### [checkIllegalUsage.bash.source.sh](checkIllegalUsage.bash.source.sh)
+檢查腳本程式的當前工作目錄是否不正確的程式庫
+
+### [convertSourceCodeToUTF-8withBOM.bash.sh](convertSourceCodeToUTF-8withBOM.bash.sh)
+將來源程式碼的字元編碼改為 UTF-8 帶 byte ordered mark 的腳本程式
+
+### [convertSourceCodeToUTF-8withoutBOM.bash.sh](convertSourceCodeToUTF-8withoutBOM.bash.sh)
+將來源程式碼的字元編碼改為 UTF-8 不帶 byte ordered mark 的腳本程式
+
