@@ -14,7 +14,7 @@ public class EmployeeTest{
 		System.out.println("林博仁(09957010) <Henry.Lin.Taiwan@gmail.com> © 2014");
 		System.out.println("---------------------------------------------------------");
 		Employee bob_jones = new Employee("俊賢", "陳", 34500);
-		Employee susan_baker = new Employee("佳燕", "柯", 37809);
+		Employee susan_baker = new Employee("佳燕", "歐陽", 37809);
 		
 		System.out.format(
 			"第一位員工：%s %s；年薪：%.2f\n", 
