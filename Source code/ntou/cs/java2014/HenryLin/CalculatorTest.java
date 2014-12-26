@@ -5,7 +5,7 @@
 package ntou.cs.java2014.HenryLin;
 
 /** @brief CalculatorTest 物件類別 */
-public class CalculatorTest{
+public final class CalculatorTest{
 	/** @brief Java 程式進入點(entry point)
 	 *  @param args 從命令列傳進來的命令參數 */
 	public static void main(String[] args){
