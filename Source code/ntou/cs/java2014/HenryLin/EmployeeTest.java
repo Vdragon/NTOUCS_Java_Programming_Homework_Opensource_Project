@@ -12,6 +12,8 @@ public class EmployeeTest{
 	public static void main(String[] args){
 		System.out.println("1-2 作業 Employee 類別測試程式");
 		System.out.println("林博仁(09957010) <Henry.Lin.Taiwan@gmail.com> © 2014");
+		System.out.println("發現任何軟體問題請至本專案的議題追蹤系統建檔回報：");
+		System.out.println("https://github.com/Vdragon/NTOUCS_Java_Programming_Homework_Opensource_Project/issues");
 		System.out.println("---------------------------------------------------------");
 		Employee bob_jones = new Employee("俊賢", "陳", 34500);
 		Employee susan_baker = new Employee("佳燕", "歐陽", 37809);
