@@ -28,12 +28,30 @@
 	</linkedResources>
 	<filteredResources>
 		<filter>
-			<id>0</id>
+			<id>1419628526180</id>
 			<name>Source code</name>
 			<type>21</type>
 			<matcher>
 				<id>org.eclipse.ui.ide.multiFilter</id>
 				<arguments>1.0-name-matches-false-false-*.java</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1419628526182</id>
+			<name>Source code</name>
+			<type>22</type>
+			<matcher>
+				<id>org.eclipse.ui.ide.multiFilter</id>
+				<arguments>1.0-name-matches-false-false-README.md</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1419628526184</id>
+			<name>Source code</name>
+			<type>6</type>
+			<matcher>
+				<id>org.eclipse.ui.ide.multiFilter</id>
+				<arguments>1.0-name-matches-false-false-.gitignore</arguments>
 			</matcher>
 		</filter>
 	</filteredResources>
