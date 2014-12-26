@@ -8,7 +8,7 @@ import java.util.Scanner;
 
 /** @brief Calculator 物件類別 */
 public class Calculator{
-	/** 比較 3 個數字的方法 */
+	/** @brief 比較 3 個數字的方法 */
 	public static void compareThreeNumbers(){
 		int first_number, second_number, third_number;
 		first_number = second_number = third_number = -12345;

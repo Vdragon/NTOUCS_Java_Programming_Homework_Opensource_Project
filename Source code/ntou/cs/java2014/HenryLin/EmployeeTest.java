@@ -6,7 +6,7 @@ package ntou.cs.java2014.HenryLin;
 
 /** @brief EmployeeTest 物件類別 */
 public class EmployeeTest{
-	/** Java 程式進入點(entry point)
+	/**@brief  Java 程式進入點(entry point)
 	 *  
 	 *  @param args 從命令列傳進來的命令參數 */
 	public static void main(String[] args){

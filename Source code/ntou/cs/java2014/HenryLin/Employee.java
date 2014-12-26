@@ -4,13 +4,13 @@
     @copyright 本來源程式碼以 General Public Licence 授權條款第 3 版或其任一更近期版本釋出 */
 package ntou.cs.java2014.HenryLin;
 
-/** 員工(Employee)物件類別 */
+/** @brief 描述員工的物件類別 */
 public class Employee {
-	/** 員工名子 */
+	/** @brief 員工名子 */
 	private String first_name = null;
-	/** 員工姓氏 */
+	/** @brief 員工姓氏 */
 	private String last_name = null;
-	/** 員工年薪 */
+	/** @brief 員工年薪 */
 	private double salary = 12345.12345;
 	
 	public Employee(String first_name, String last_name, double salary){
@@ -23,14 +23,14 @@ public class Employee {
 		}
 	}
 	
-	/** 取得名字
+	/** @brief 取得名字
 	 * @return 名字
 	 */
 	public String getFirstName(){
 		return first_name;
 	}
 	
-	/** 設定名字
+	/** @brief 設定名字
 	 * 
 	 * @param first_name 名字
 	 */
@@ -39,14 +39,14 @@ public class Employee {
 		return;
 	}
 	
-	/** 取得員工姓氏
+	/** @brief 取得員工姓氏
 	 * @return 姓氏
 	 */
 	public String getLastName(){
 		return last_name;
 	}
 
-	/** 設定員工姓氏
+	/** @brief 設定員工姓氏
 	 * @param last_name 姓氏
 	 */
 	public void setLastName(String last_name){
@@ -54,14 +54,14 @@ public class Employee {
 		return;
 	}
 	
-	/** 取得員工年薪
+	/** @brief 取得員工年薪
 	 * @return 年薪
 	 */
 	public double getSalary(){
 		return salary;
 	}
 
-	/** 設定員工年薪
+	/** @brief 設定員工年薪
 	 * @param salary 年薪
 	 */
 	public void setSalary(double salary){
