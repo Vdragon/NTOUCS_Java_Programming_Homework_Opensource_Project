@@ -6,7 +6,7 @@ package ntou.cs.java2014.HenryLin;
 
 /** @brief 描述員工的物件類別 */
 public class Employee {
-	/** @brief 員工名子 */
+	/** @brief 員工名字 */
 	private String first_name = null;
 	/** @brief 員工姓氏 */
 	private String last_name = null;
