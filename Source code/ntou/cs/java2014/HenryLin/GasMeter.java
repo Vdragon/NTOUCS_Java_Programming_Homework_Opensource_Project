@@ -32,17 +32,15 @@ public class GasMeter {
 		Scanner standard_input_scanner = new Scanner(System.in);
 		
 		/** ## 實作細節<br>Implementation details */
-		/** 1. 讀取使用者輸入 */
+		/** 1. 讀取使用者輸入行駛哩數 */
 		System.out.print("請輸入本次行駛哩數（輸入 -1 以結束程式）：");
 		current_miles = standard_input_scanner.nextInt();
-		if(current_miles == -1){
-			System.exit(0);
-		}
-		System.out.print("請輸入本次耗油量（單位：加侖）：");
-		current_gasoline_consumption = standard_input_scanner.nextFloat();
 		
 		/** 2. 進入處理、輸入迴圈 */
 		while(current_miles != -1){
+			System.out.print("請輸入本次耗油量（單位：加侖）：");
+			current_gasoline_consumption = standard_input_scanner.nextFloat();
+			
 			/** * 更新合計值 */ 
 			total_miles += current_miles;
 			total_gasoline_consumption += current_gasoline_consumption;
@@ -53,12 +51,9 @@ public class GasMeter {
 			/** 	* 輸出總耗油度 */
 			System.out.format("Total MPG: %.2f\n", total_miles / total_gasoline_consumption);
 			
-			/** 	* 再次讀取使用者輸入 */
+			/** 	* 再次讀取使用者輸入行駛哩數 */
 			System.out.print("請輸入本次行駛哩數（輸入 -1 以結束程式）：");
 			current_miles = standard_input_scanner.nextInt();
-			System.out.print("請輸入本次耗油量（單位：加侖）：");
-			current_gasoline_consumption = standard_input_scanner.nextFloat();
-			
 		}
 		
 		standard_input_scanner.close();
