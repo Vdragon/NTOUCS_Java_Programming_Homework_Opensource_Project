@@ -33,6 +33,9 @@ import java.util.Random;
  * @brief CrapsSimulation 類別
  */
 public class CrapsSimulation {
+	/* 類別變數
+	   Class fields */
+
 	/** 
 	 * @brief Fig. 6.9: Craps.java - Craps class simulates the dice game craps.
 	 * @copyright 
@@ -135,9 +138,6 @@ public class CrapsSimulation {
 	public CrapsSimulation() {
 		// TODO 自動產生的建構子 Stub
 	}
-	/* 類別變數
-	   Class fields */
-
 	/* 類別方法
 	   Class methods */
 }
