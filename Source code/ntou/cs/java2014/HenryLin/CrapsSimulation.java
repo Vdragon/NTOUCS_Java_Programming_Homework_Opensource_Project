@@ -35,9 +35,22 @@ import java.util.Random;
 public class CrapsSimulation {
 	/* 類別變數
 	   Class fields */
-
+	/** @brief 保存投擲幾次骰子時贏遊戲的次數的陣列
+	 *  [0] -> 略過不用
+	 *  [N](1 <= N <= 20) -> 投擲 N 次贏遊戲的次數
+	 *  [21] -> 投擲 21 次或以上贏遊戲的次數 */
+	private static int dice_rolled_win_times[] = new int[22];
+	
+	/** @brief 保存投擲幾次骰子時輸遊戲的次數的陣列
+	 *  [0] -> 略過不用
+	 *  [N](1 <= N <= 20) -> 投擲 N 次輸遊戲的次數
+	 *  [21] -> 投擲 21 次或以上輸遊戲的次數 */
+	private static int dice_rolled_lose_times[] = new int[22];
+	
+	private static int dice_roll_times;
+	
 	/** 
-	 * @brief Fig. 6.9: Craps.java - Craps class simulates the dice game craps.
+	 * @brief A modification of fig. 6.9: Craps.java - Craps class simulates the dice game craps.
 	 * @copyright 
 	 **************************************************************************
 	 * (C) Copyright 1992-2007 by Deitel & Associates, Inc. and               *
@@ -55,6 +68,9 @@ public class CrapsSimulation {
 	 *************************************************************************/
 	private static class Craps 
 	{
+	/* 類別變數
+	   Class fields */
+	
 	// create random number generator for use in method rollDice
 	private Random randomNumbers = new Random(); 
 
@@ -91,7 +107,7 @@ public class CrapsSimulation {
 	      default: // did not win or lose, so remember point         
 	         gameStatus = Status.CONTINUE; // game is not over
 	         myPoint = sumOfDice; // remember the point
-	         System.out.printf( "Point is %d\n", myPoint );
+	         // System.out.printf( "Point is %d\n", myPoint );
 	         break; // optional at end of switch
 	   } // end switch 
 
@@ -109,24 +125,32 @@ public class CrapsSimulation {
 	   } // end while 
 
 	   // display won or lost message
-	   if ( gameStatus == Status.WON )
-	      System.out.println( "Player wins" );
-	   else
-	      System.out.println( "Player loses" );
+	   if ( gameStatus == Status.WON ){
+		  dice_rolled_win_times[dice_roll_times <= 20 ? dice_roll_times : 21]++;
+	      // System.out.println( "Player wins" );
+	   } else{
+		  dice_rolled_lose_times[dice_roll_times <= 20 ? dice_roll_times : 21]++;
+	      // System.out.println( "Player loses" );
+	   }
+	   
+	   // reset dice_roll_times counter
+	   dice_roll_times = 0;
 	} // end method play
 
 	// roll dice, calculate sum and display results
 	public int rollDice()
 	{
+	   dice_roll_times++;
+	   
 	   // pick random die values
 	   int die1 = 1 + randomNumbers.nextInt( 6 ); // first die roll
 	   int die2 = 1 + randomNumbers.nextInt( 6 ); // second die roll
 
 	   int sum = die1 + die2; // sum of die values
 
-	   // display results of this roll
+	   /* display results of this roll
 	   System.out.printf( "Player rolled %d + %d = %d\n", 
-	      die1, die2, sum );
+	      die1, die2, sum ); */
 
 	   return sum; // return sum of dice
 	} // end method rollDice
@@ -134,12 +158,51 @@ public class CrapsSimulation {
 
 	/* Constructors */
 	/**
-	 * @brief 
+	 * @brief Default constructor of CrapsSimulation class
 	 */
 	public CrapsSimulation() {
-		// TODO 自動產生的建構子 Stub
+		return;
 	}
+	
 	/* 類別方法
 	   Class methods */
+	/** 
+	 * @brief 進行模擬的子程式
+	 * @param times 運行遊戲次數
+	 */
+	public void simulate(int times){
+		Craps game = new Craps();
+		
+		for(int i = 1; i <= times; ++i){
+			game.play();
+		}
+		
+		for(int i = 1; i <= 20; ++i){
+			System.out.printf(
+				"%d games won and %d games lost on roll #%d\n", 
+				dice_rolled_win_times[i], 
+				dice_rolled_lose_times[i], 
+				i
+			);
+		}
+		System.out.printf(
+			"%d games won and %d games lost on rolls after the 20th roll\n",
+			dice_rolled_win_times[21], 
+			dice_rolled_lose_times[21]
+		);
+		
+		game = null;
+		return;
+	}
+	
+	/**
+	 * @brief 重設模擬子程式
+	 * 這個子程式會把 dice_rolled_win_times 、dice_rolled_lose_times 陣列重設為 0
+	 */
+	public void reset(){
+		dice_rolled_win_times = new int[22];
+		dice_rolled_lose_times = new int [22];
+		return;
+	}
 }
 

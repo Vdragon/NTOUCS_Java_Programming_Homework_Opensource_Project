@@ -48,7 +48,9 @@ public class CrapsSimulationTest {
 		System.out.println("發現任何軟體問題請至本專案的議題追蹤系統建檔回報：");
 		System.out.println("https://github.com/Vdragon/NTOUCS_Java_Programming_Homework_Opensource_Project/issues");
 		System.out.println("---------------------------------------------------------");
-		
+		CrapsSimulation simulation = new CrapsSimulation();
+		simulation.simulate(1000);
+		simulation.reset();
 		return;
 	}
 }
