@@ -132,6 +132,7 @@ public class CrapsSimulation {
 	} // end method rollDice
 	} // end class Craps
 
+	/* Constructors */
 	/**
 	 * @brief 
 	 */

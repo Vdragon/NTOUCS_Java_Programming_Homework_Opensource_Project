@@ -30,6 +30,7 @@ public class CrapsSimulationTest {
 	/* 類別變數
 	   Class fields */
 
+	/* Constructors */
 	/**
 	 * @brief CrapsSimulationTest 類別不允許被實例化
 	 */
