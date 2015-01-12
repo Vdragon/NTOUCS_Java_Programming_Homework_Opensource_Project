@@ -47,6 +47,7 @@ public class CrapsSimulation {
 	 *  [21] -> 投擲 21 次或以上輸遊戲的次數 */
 	private static int dice_rolled_lose_times[] = new int[22];
 	
+	/** @brief 每次遊戲的骰子投擲次數 */
 	private static int dice_roll_times;
 	
 	/** 
