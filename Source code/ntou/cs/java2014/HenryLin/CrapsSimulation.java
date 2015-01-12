@@ -50,6 +50,9 @@ public class CrapsSimulation {
 	/** @brief 每次遊戲的骰子投擲次數 */
 	private static int dice_roll_times;
 	
+	/** @brief 模擬期間骰子總投擲次數 */
+	private static int dice_roll_times_total;
+	
 	/** 
 	 * @brief A modification of fig. 6.9: Craps.java - Craps class simulates the dice game craps.
 	 * @copyright 
@@ -134,6 +137,8 @@ public class CrapsSimulation {
 	      // System.out.println( "Player loses" );
 	   }
 	   
+	   dice_roll_times_total += dice_roll_times;
+	   
 	   // reset dice_roll_times counter
 	   dice_roll_times = 0;
 	} // end method play
@@ -173,6 +178,7 @@ public class CrapsSimulation {
 	 */
 	public void simulate(int times){
 		Craps game = new Craps();
+		int win_times_total = 0;
 		
 		for(int i = 1; i <= times; ++i){
 			game.play();
@@ -185,11 +191,25 @@ public class CrapsSimulation {
 				dice_rolled_lose_times[i], 
 				i
 			);
+			win_times_total += dice_rolled_win_times[i];
 		}
 		System.out.printf(
 			"%d games won and %d games lost on rolls after the 20th roll\n",
 			dice_rolled_win_times[21], 
 			dice_rolled_lose_times[21]
+		);
+		win_times_total += dice_rolled_win_times[21];
+		System.out.println();
+		
+		System.out.printf(
+			"The chances of winning are %d / %d = %.2f%%\n",
+			win_times_total, 
+			times, 
+			win_times_total / (double)times * 100
+		);
+		System.out.printf(
+			"The average game length is %.2f rolls.",
+			dice_roll_times_total / (double)times
 		);
 		
 		game = null;
@@ -198,11 +218,12 @@ public class CrapsSimulation {
 	
 	/**
 	 * @brief 重設模擬子程式
-	 * 這個子程式會把 dice_rolled_win_times 、dice_rolled_lose_times 陣列重設為 0
+	 * 這個子程式會把兩次模擬之間需要重設的變數重設
 	 */
 	public void reset(){
 		dice_rolled_win_times = new int[22];
 		dice_rolled_lose_times = new int [22];
+		dice_roll_times_total = 0;
 		return;
 	}
 }
